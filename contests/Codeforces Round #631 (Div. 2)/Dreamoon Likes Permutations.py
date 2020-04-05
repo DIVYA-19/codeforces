@@ -1,3 +1,24 @@
+'''
+
+P1 + P2 = a
+P1 and P2 are permutations with L1 and L2 as lengths
+
+a will be given, we have to print possible lengths of L1 and L2
+First we have to observe that we cannot answer more than 2
+
+we have to know to know how many a number appeared in a
+if count(i) > 2, then not possible
+Otherwise,
+find n such that count(1) = count(2) = ... = count(n) = 2
+these numbers will be in both permutations
+two ways possible:
+L1 = n , L2 = len(a) - n
+check if both parts have all numbers in range
+
+L1 = len(a) - n, L2 = n
+
+'''
+
 t = int(input())
  
 for _ in range(t):
