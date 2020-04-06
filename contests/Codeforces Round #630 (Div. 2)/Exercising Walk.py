@@ -9,7 +9,7 @@ d - u,v+1 - up -> right - b
 we can just keep walking b/w two cells (up/dowm and right/left) 
 and the remaining walks (up/down/right/left), we need too check if we have that many cells
 
-and basically we need atleast 1 cells if a/b/c/d > 0, to it's corresponding directions other than the present position
+and basically we need atleast 1 cell other than the present position, if a/b/c/d > 0, to it's corresponding directions 
 
 present - x,y
 start   - x1,y1
