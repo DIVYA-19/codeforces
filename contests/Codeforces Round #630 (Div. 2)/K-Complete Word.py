@@ -1,3 +1,17 @@
+'''
+s is k-complete word
+- s is a palindrome
+- s has a period of k, i.e. si=sk+i for all 1≤i≤n−k
+
+if s is k-complete
+then it will have k length palindromes sequently
+Ex:  k = 3, abaaba , (1,3) -> palindrome (4,6) -> palindrome
+
+ 
+si = s(k+i) = s(k-i-1+k) = s(k-i-1) for all i = 0,..,k//2
+if k is even we are good, if k is odd we have to check min replaces separately
+we have to min possible replaces for every i and add them to get ans
+'''
 t = int(input())
  
 for _ in range(t):
