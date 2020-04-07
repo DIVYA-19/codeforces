@@ -16,6 +16,7 @@ L1 = n , L2 = len(a) - n
 check if both parts have all numbers in range
 
 L1 = len(a) - n, L2 = n
+we have to careful when n is len(a)/2 or n i 0
 
 '''
 
