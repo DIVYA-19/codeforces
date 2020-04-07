@@ -1,3 +1,17 @@
+'''
+we keep track of directions 
+- x -> horizontal
+  inc for left
+  dec for right
+- y -> vertical
+  inc for up
+  dec for down
+ 
+(x,y) will be position we'll be at after i steps
+we check if we already been at that position before, that means values between prev(x,y) and present (x,y) are canceled out
+we take that length and find which is minimum
+
+'''
 t = int(input())
 
 for _ in range(t):
